@@ -1,0 +1,295 @@
+// 
+// serif font
+// used for h1s
+// loaded in google fonts tag
+//
+$serifFont: "Times New Roman", serif;
+
+// 
+// copy font
+// for p tags and smaller text
+// loaded in google fonts tag
+// 
+$copyFont: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+// 
+// display font
+// used throughout
+// 
+$displayFont: $copyFont;
+
+// 
+// helpers 
+// 
+
+@mixin truncate {
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+@mixin font-size($int) {
+  @include rem-prop('font-size', $int);
+}
+
+@mixin fix-last {
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+// 
+// styles
+// 
+
+@mixin serifBase {
+  @include fix-last;
+  font-family: $serifFont;
+  font-weight: 900;
+  line-height: 1;
+  margin: 0;
+  position: relative;
+}
+
+@mixin displayBase {
+  @include fix-last;
+  font-family: $displayFont;
+  font-weight: 800;
+  line-height: 1;
+  margin: 0;
+  position: relative;
+}
+
+@mixin copyBase {
+  @include fix-last;
+  font-family: $copyFont;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 0;
+}
+
+@mixin serif-60 {
+  @include serifBase;
+  @include font-size(36);
+  left: -1px; // account for large spacing leading up to first character
+
+  @include tablet {
+    @include font-size(48);
+    left: -2px; // account for large spacing leading up to first character
+  }
+
+  @include fullhd {
+    @include font-size(60);
+  }
+}
+
+@mixin serif-42 {
+  @include serifBase;
+  @include font-size(36);
+  left: -1px; // account for large spacing leading up to first character
+
+  @include tablet {
+    @include font-size(42);
+    left: -2px; // account for large spacing leading up to first character
+  }
+
+  @include fullhd {
+    @include font-size(42);
+  }
+}
+
+@mixin serif-42-odd {
+  @include serifBase;
+  @include font-size(36);
+  left: -1px; // account for large spacing leading up to first character
+
+  @include tablet {
+    @include font-size(48);
+    left: -2px; // account for large spacing leading up to first character
+  }
+
+  @include fullhd {
+    @include font-size(42);
+  }
+}
+
+@mixin serif-32 {
+  @include serifBase;
+  @include font-size(32);
+  left: -1px; // account for large spacing leading up to first character
+}
+
+@mixin serif-32-small {
+  @include serifBase;
+  @include font-size(27);
+
+  @include tablet {
+    @include font-size(32);
+    left: -1px; // account for large spacing leading up to first character
+  }
+}
+
+@mixin display-72 {
+  @include displayBase;
+  @include font-size(60);
+  left: -2px; // account for large spacing leading up to first character
+
+  @include tablet {
+    @include font-size(72);
+  }
+
+  @include desktop-only {
+    @include font-size(48);
+  }
+}
+
+@mixin display-48 {
+  @include displayBase;
+  @include font-size(32);
+  left: -1px; // account for large spacing leading up to first character
+
+  @include tablet {
+    @include font-size(42);
+    left: -2px; // account for large spacing leading up to first character
+  }
+
+  @include fullhd {
+    @include font-size(48);
+  }
+}
+
+@mixin display-36 {
+  @include displayBase;
+  @include font-size(21);
+  
+  @include tablet {
+    @include font-size(32);
+    left: -1px; // account for large spacing leading up to first character
+  }
+
+  @include fullhd {
+    @include font-size(36);
+  }
+}
+
+@mixin display-32 {
+  @include displayBase;
+  @include font-size(21);
+  
+  @include tablet {
+    @include font-size(28);
+  }
+  
+  @include fullhd {
+    @include font-size(32);
+    left: -1px; // account for large spacing leading up to first character
+  }
+}
+
+@mixin display-24 {
+  @include displayBase;
+  @include font-size(21);
+
+  @include tablet {
+    @include font-size(24);
+  }
+}
+
+@mixin display-24-odd {
+  @include displayBase;
+  @include font-size(21);
+
+  @include tablet {
+    @include font-size(28);
+  }
+
+  @include desktop {
+    @include font-size(24);
+  }
+}
+
+@mixin display-18 {
+  @include displayBase;
+  @include font-size(16);
+  font-weight: 700;
+  
+  @include tablet {
+    @include font-size(18);
+  }
+}
+
+@mixin display-18-medium {
+  @include display-18;
+  
+  font-weight: 500;
+}
+
+@mixin display-16 {
+  @include displayBase;
+  @include font-size(14);
+  
+  @include tablet {
+    @include font-size(16);
+  }
+}
+
+@mixin copy-24 {
+  @include copyBase;
+  @include font-size(21);
+
+  @include tablet {
+    @include font-size(24);
+  }
+}
+
+@mixin copy-21 {
+  @include copyBase;
+  @include font-size(15);
+
+  @include tablet {
+    @include font-size(18);
+  }
+
+  @include desktop {
+    @include font-size(21);
+  }
+}
+
+@mixin copy-18 {
+  @include copyBase;
+  @include font-size(16);
+
+  @include tablet {
+    @include font-size(18);
+  }
+}
+
+@mixin copy-13 {
+  @include copyBase;
+  @include font-size(12);
+
+  @include tablet {
+    @include font-size(13);
+  }
+}
+
+@mixin copy-13-medium {
+  @include copy-13;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+@mixin copy {
+  @include copyBase;
+  @include font-size(16);
+
+  margin: 1em 0 !important; // override bulma
+}
+
+@mixin rhythm($size: 30px) {
+  @include fix-last;
+
+  margin-bottom: $size;
+  margin-top: $size;
+}

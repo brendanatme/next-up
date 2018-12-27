@@ -1,0 +1,19 @@
+@import "../abstract/all";
+
+.vcenter {
+  @include vcenter;
+
+  &.fill {
+    display: flex;
+  }
+}
+
+.vcenter--tablet {
+  @include tablet {
+    @include vcenter;
+
+    &.fill--tablet {
+      display: flex;
+    }
+  }
+}

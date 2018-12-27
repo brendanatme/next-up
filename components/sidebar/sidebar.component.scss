@@ -1,0 +1,70 @@
+// 
+// sidebar
+// note: see layout-related sidebar styles in layout.component.scss
+// since sidebar becomes sidebar in certain layouts at certain breakpoints
+// 
+@import "../../styles/abstract/all";
+
+.sidebar {
+  position: relative;
+  z-index: 1;
+}
+
+.sidebar__bg {
+  @include touch {
+    opacity: .65;
+  }
+}
+
+.sidebar__wrapper {
+  padding-bottom: 33px;
+  padding-top: 10px;
+
+  @include tablet {
+    padding-bottom: 30px;
+    padding-top: 22px;
+  }
+
+  @include desktop {
+    padding-bottom: 50px;
+    padding-top: 26px;
+  }
+
+  @include fullhd {
+    float: right;
+    width: 474px;
+  }
+}
+
+.sidebar__content {
+  // make room for .header on mobile/tablet
+  padding-top: 50px;
+
+  @include tablet {
+    padding-top: 46px;
+  }
+
+  @include desktop {
+    padding-top: 96px;
+  }
+
+  @include fullhd {
+    padding-top: 126px;
+  }
+
+}
+// .sidebar__subsidebar {
+//   padding-top: 28px;
+// }
+
+.sidebar__footer {
+  bottom: 0;
+  display: none;
+  position: absolute;
+  right: 0;
+  width: 100%;
+
+  .sidebar__wrapper {
+    padding-bottom: 0;
+  }
+}

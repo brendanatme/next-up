@@ -1,0 +1,70 @@
+//
+// menu-button
+//
+@import "../../styles/abstract/all";
+
+.menu-button {
+  background-color: transparent;
+  border: 0;
+  color: inherit;
+  cursor: pointer;
+  display: inline-block;
+  margin: 0;
+  overflow: visible;
+  padding: 15px;
+  text-transform: none;
+
+  &.menu-button--is-active {
+    .menu-button__line--2 {
+      opacity: 0;
+      transform: scaleX(0);
+      transition: all .15s linear;
+    }
+  }
+
+  &.menu-button--is-active {
+    .menu-button__line--3 {
+      transform: rotate(43deg) scaleX(0.825);
+      transition: all .15s $ease-out .05s;
+    }
+  }
+
+  &.menu-button--is-active {
+    .menu-button__line--1 {
+      transform: rotate(-43deg) scaleX(0.825);
+      transition: all .4s $ease-out .05s;
+    }
+  }
+}
+
+.menu-button__box {
+  display: inline-block;
+  height: 16px;
+  position: relative;
+  width: 24px;
+}
+
+.menu-button__line {
+  background-color: $black;
+  border-radius: 0;
+  height: 2px;
+  position: absolute;
+  right: 0;
+  transform-origin: right center;
+  transition: all .5s $ease-out;
+  width: 25px;
+}
+
+.menu-button__line--1 {
+  top: 0;
+}
+
+.menu-button__line--2 {
+  top: 7px;
+  transform: scaleX(.6);
+}
+
+.menu-button__line--3 {
+  bottom: 0;
+  transform: scaleX(.8);
+}

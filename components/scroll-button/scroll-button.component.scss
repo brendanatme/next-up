@@ -1,0 +1,58 @@
+//
+// scroll-button
+//
+@import "../../styles/abstract/all";
+
+// make object nundge up and down
+@keyframes nudge {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-3px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.scroll-button {
+  bottom: 0;
+  color: $black;
+  cursor: pointer;
+  display: block;
+  height: 60px;
+  left: 0;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+
+  &:hover {
+    animation: nudge ease-in-out .3s 3 alternate-reverse;
+    color: $black;
+  }
+
+  @include tablet {
+    height: 120px;
+  }
+
+  @include desktop {
+    height: 80px;
+  }
+}
+
+.scroll-button__text {
+  display: block;
+  padding: 10px;
+}
+
+.scroll-button__line {
+  background: $black;
+  bottom: -3px;
+  height: calc(100% - 37px);
+  left: 50%;
+  position: absolute;
+  width: 1px;
+}

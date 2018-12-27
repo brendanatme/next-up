@@ -1,0 +1,24 @@
+@import "./layout";
+
+@mixin ul-reset {
+  &,
+  li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@mixin ul-inline {
+  @include ul-reset;
+  @include ib;
+
+  li {
+    float: left;
+  }
+}
+
+@mixin a-reset {
+  color: inherit;
+  text-decoration: none;
+}

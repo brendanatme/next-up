@@ -1,0 +1,1234 @@
+{
+  "siteTitle": "Don't Be Sorry",
+  "provinces": {
+    "alberta": {
+      "bg": "/static/images/bgs/alberta-grey.jpg",
+      "name": "Alberta",
+      "code": "AB",
+      "funFact": "The largest collection of complete dinosaur skeletons in the world can be found in Alberta.",
+      "notSoFunFact": "Alberta has the 3rd-highest rate of drug-impaired driving incidents. 577 incidents in 2017.",
+      "driverGroups": {
+        "all-drivers": [
+          {
+            "desc": "BAC alcohol over .08, over 2 ng/ml of blood of THC, a combination of .05 BAC + 2.5 ng/ml of blood of THC, refused to provide a breath or fluid sample",
+            "offences": [
+              [
+                { "icon": "id", "label": "License Suspension", "value": "90", "unit": "Days" },
+                { "icon": "car", "label": "If Convicted", "value": "Federal Laws plus 1 year of Mandatory Ignition Interlock Program", "unit": "" },
+                { "icon": "car", "label": "Vehicle Impoundment", "value": "3", "unit": "Days" },
+                { "icon": "book", "label": "Education/Program", "value": "Remedial education courses", "unit": "" },
+                { "icon": "money", "label": "Penalty", "value": "N/A" }
+              ],
+              [
+                { "icon": "id", "label": "License Suspension", "value": "90", "unit": "Days" },
+                { "icon": "car", "label": "If Convicted", "value": "Federal Laws plus 1 year of Mandatory Ignition Interlock Program", "unit": "" },
+                { "icon": "car", "label": "Vehicle Impoundment", "value": "3", "unit": "Days" },
+                { "icon": "book", "label": "Education/Program", "value": "Remedial education courses", "unit": "" },
+                { "icon": "money", "label": "Penalty", "value": "N/A" }
+              ],
+              [
+                { "icon": "id", "label": "License Suspension", "value": "90", "unit": "Days" },
+                { "icon": "car", "label": "If Convicted", "value": "Federal Laws plus 1 year of Mandatory Ignition Interlock Program", "unit": "" },
+                { "icon": "car", "label": "Vehicle Impoundment", "value": "3", "unit": "Days" },
+                { "icon": "book", "label": "Education/Program", "value": "Remedial education courses", "unit": "" },
+                { "icon": "money", "label": "Penalty", "value": "N/A" }
+              ]
+            ]
+          }
+        ],
+        "new-drivers": [
+          {
+            "desc": "Zero Tolerance. Any amount of alcohol, cannabis in bloodstream, higher than zero, BUT lower than the criminal limits",
+            "offences": [
+              [
+                { "icon": "id", "label": "License Suspension", "value": "30", "unit": "Days" },
+                { "icon": "car", "label": "If Convicted", "value": "Not a Criminal Offense", "unit": "" },
+                { "icon": "car", "label": "Vehicle Impoundment", "value": "7", "unit": "Days" },
+                { "icon": "book", "label": "Education/Program", "value": "Driver Training Program may be required to be restarted.", "unit": "" },
+                { "icon": "money", "label": "Penalty", "value": "N/A" }
+              ],
+              [
+                { "icon": "id", "label": "License Suspension", "value": "30", "unit": "Days" },
+                { "icon": "car", "label": "If Convicted", "value": "Not a Criminal Offense", "unit": "" },
+                { "icon": "car", "label": "Vehicle Impoundment", "value": "7", "unit": "Days" },
+                { "icon": "book", "label": "Education/Program", "value": "Driver Training Program may be required to be restarted.", "unit": "" },
+                { "icon": "money", "label": "Penalty", "value": "N/A" }
+              ],
+              [
+                { "icon": "id", "label": "License Suspension", "value": "30", "unit": "Days" },
+                { "icon": "car", "label": "If Convicted", "value": "Not a Criminal Offense", "unit": "" },
+                { "icon": "car", "label": "Vehicle Impoundment", "value": "7", "unit": "Days" },
+                { "icon": "book", "label": "Education/Program", "value": "Driver Training Program may be required to be restarted.", "unit": "" },
+                { "icon": "money", "label": "Penalty", "value": "N/A" }
+              ]
+            ]
+          }
+        ],
+        "experienced-drivers": [
+          {
+            "desc": "BAC between .05 to .08 and/or are impaired by drugs",
+            "offences": [
+              [
+                { "icon": "id", "label": "License Suspension", "value": "3", "unit": "Days" },
+                { "icon": "car", "label": "If Convicted", "value": "Not a Criminal Offense", "unit": "" },
+                { "icon": "car", "label": "Vehicle Impoundment", "value": "3", "unit": "Days" },
+                { "icon": "book", "label": "Education/Program", "value": "No Required Educations Program", "unit": "" },
+                { "icon": "money", "label": "Penalty", "value": "N/A" }
+              ],
+              [
+                { "icon": "id", "label": "License Suspension", "value": "15", "unit": "Days" },
+                { "icon": "car", "label": "If Convicted", "value": "Not a Criminal Offense", "unit": "" },
+                { "icon": "car", "label": "Vehicle Impoundment", "value": "7", "unit": "Days" },
+                { "icon": "book", "label": "Education/Program", "value": "\"Planning Ahead\" Course", "unit": "" },
+                { "icon": "money", "label": "Penalty", "value": "N/A" }
+              ],
+              [
+                { "icon": "id", "label": "License Suspension", "value": "30", "unit": "Days" },
+                { "icon": "car", "label": "If Convicted", "value": "Not a Criminal Offense", "unit": "" },
+                { "icon": "car", "label": "Vehicle Impoundment", "value": "7", "unit": "Days" },
+                { "icon": "book", "label": "Education/Program", "value": "\"IMPACT\" Program", "unit": "" },
+                { "icon": "money", "label": "Penalty", "value": "N/A" }
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "british-columbia": {
+      "bg": "/static/images/bgs/bc-grey.jpg",
+      "name": "British Columbia",
+      "code": "BC",
+      "funFact": "British Columbia is the third-largest and most westerly province in Canada and it is four times the size of Great Britain.",
+      "notSoFunFact": "BC had 537 drug-impaired incidents in 2017.",
+      "driverGroups": {
+        "all-drivers": [
+          {
+            "desc": "BAC alcohol over .08, over 2 ng/ml of blood of THC, a combination of .05 BAC + 2.5 ng/ml of blood of THC, refused to provide a breath or fluid sample",
+            "offences": [
+              [
+                { "icon": "id", "label": "License Suspension", "value": "90", "unit": "Days" },
+                { "icon": "car", "label": "If Convicted", "value": "1-3", "unit": "Years" },
+                { "icon": "car", "label": "Vehicle Impoundment", "value": "30", "unit": "Days" },
+                { "icon": "book", "label": "Education/Program", "value": "Responsible Driver Program", "unit": "" },
+                { "icon": "money", "label": "Penalty", "value": "$500" }
+              ],
+              [
+                { "icon": "id", "label": "License Suspension", "value": "90", "unit": "Days" },
+                { "icon": "car", "label": "If Convicted", "value": "2-5", "unit": "Years" },
+                { "icon": "car", "label": "Vehicle Impoundment", "value": "30", "unit": "Days" },
+                { "icon": "book", "label": "Education/Program", "value": "Responsible Driver Program", "unit": "" },
+                { "icon": "money", "label": "Penalty", "value": "$500" }
+              ],
+              [
+                { "icon": "id", "label": "License Suspension", "value": "90", "unit": "Days" },
+                { "icon": "car", "label": "If Convicted", "value": "3", "unit": "Years - Lifetime" },
+                { "icon": "car", "label": "Vehicle Impoundment", "value": "30", "unit": "Days" },
+                { "icon": "book", "label": "Education/Program", "value": "Responsible Driver Program", "unit": "" },
+                { "icon": "money", "label": "Penalty", "value": "$500" }
+              ]
+            ]
+          }
+        ],
+        "new-drivers": [
+          {
+            "desc": "Zero Tolerance. Any amount of alcohol, cannabis in bloodstream, higher than zero, BUT lower than the criminal limits",
+            "offences": [
+              [
+                { "icon": "id", "label": "License Suspension", "value": "12-24", "unit": "Hours" },
+                { "icon": "car", "label": "If Convicted", "value": "Not a Criminal Offense", "unit": "" },
+                { "icon": "car", "label": "Vehicle Impoundment", "value": "Vehicle Not Impounded", "unit": "" },
+                { "icon": "book", "label": "Education/Program", "value": "Driver Training Program may be required to be restarted", "unit": "" },
+                { "icon": "money", "label": "Penalty", "value": "N/A" }
+              ],
+              [
+                { "icon": "id", "label": "License Suspension", "value": "12-24", "unit": "Hours" },
+                { "icon": "car", "label": "If Convicted", "value": "Not a Criminal Offense", "unit": "" },
+                { "icon": "car", "label": "Vehicle Impoundment", "value": "Vehicle Not Impounded", "unit": "" },
+                { "icon": "book", "label": "Education/Program", "value": "Driver Training Program may be required to be restarted", "unit": "" },
+                { "icon": "money", "label": "Penalty", "value": "N/A" }
+              ],
+              [
+                { "icon": "id", "label": "License Suspension", "value": "12-24", "unit": "Hours" },
+                { "icon": "car", "label": "If Convicted", "value": "Not a Criminal Offense", "unit": "" },
+                { "icon": "car", "label": "Vehicle Impoundment", "value": "Vehicle Not Impounded", "unit": "" },
+                { "icon": "book", "label": "Education/Program", "value": "Driver Training Program may be required to be restarted", "unit": "" },
+                { "icon": "money", "label": "Penalty", "value": "N/A" }
+              ]
+            ]
+          }
+        ],
+        "experienced-drivers": [
+          {
+            "desc": "BAC between .05 to .08 and/or are impaired by drugs",
+            "offences": [
+              [
+                { "icon": "id", "label": "License Suspension", "value": "3", "unit": "Days" },
+                { "icon": "car", "label": "If Convicted", "value": "Not a Criminal Offense", "unit": "" },
+                { "icon": "car", "label": "Vehicle Impoundment", "value": "3", "unit": "Days" },
+                { "icon": "book", "label": "Education/Program", "value": "No Required Educations Program", "unit": "" },
+                { "icon": "money", "label": "Penalty", "value": "$200" }
+              ],
+              [
+                { "icon": "id", "label": "License Suspension", "value": "7", "unit": "Days" },
+                { "icon": "car", "label": "If Convicted", "value": "Not a Criminal Offense", "unit": "" },
+                { "icon": "car", "label": "Vehicle Impoundment", "value": "7", "unit": "Days" },
+                { "icon": "book", "label": "Education/Program", "value": "Responsible Driver Program", "unit": "" },
+                { "icon": "money", "label": "Penalty", "value": "$300" }
+              ],
+              [
+                { "icon": "id", "label": "License Suspension", "value": "30", "unit": "Days" },
+                { "icon": "car", "label": "If Convicted", "value": "Not a Criminal Offense", "unit": "" },
+                { "icon": "car", "label": "Vehicle Impoundment", "value": "30", "unit": "Days" },
+                { "icon": "book", "label": "Education/Program", "value": "Responsible Driver Program", "unit": "" },
+                { "icon": "money", "label": "Penalty", "value": "$400" }
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "manitoba": {
+      "bg": "/static/images/bgs/manitoba-grey.jpg",
+      "name": "Manitoba",
+      "code": "MB",
+      "funFact": "The Bear who inspired the lovable Winnie the Pooh character was owned by Manitoba Lieutenant Harry Colebourne and named after his hometown, Winnipeg.",
+      "notSoFunFact": "Manitoba had 108 drug-impaired incidents in 2017.",
+      "driverGroups": {
+        "all-drivers": [
+          {
+            "desc": "BAC is over .08, over 5 ng/ml of THC, combined BAC over .05 and  over 2.5 ng/ml of THC",
+            "offences": [
+              [
+                { "icon": "id", "label": "License Suspension", "value": "3", "unit": "Months" },
+                { "icon": "car", "label": "If Convicted", "value": "1", "unit": "Year" },
+                { "icon": "car", "label": "Vehicle Impoundment", "value": "30", "unit": "Days min." },
+                { "icon": "book", "label": "Education/Program", "value": "Assessment of your alcohol/drug use", "unit": "at a cost of $625" },
+                { "icon": "money", "label": "Penalty", "value": "$1000", "unit": "Minimum fine" }
+              ],
+              [
+                { "icon": "id", "label": "License Suspension", "value": "3", "unit": "Months" },
+                { "icon": "car", "label": "If Convicted", "value": "5", "unit": "Years" },
+                { "icon": "car", "label": "Vehicle Impoundment", "value": "30", "unit": "Days min." },
+                { "icon": "book", "label": "Education/Program", "value": "Assessment of your alcohol/drug use", "unit": "at a cost of $625" },
+                { "icon": "money", "label": "Penalty", "value": "$1000", "unit": "Minimum fine" }
+              ],
+              [
+                { "icon": "id", "label": "License Suspension", "value": "3", "unit": "Months" },
+                { "icon": "car", "label": "If Convicted", "value": "10", "unit": "Years" },
+                { "icon": "car", "label": "Vehicle Impoundment", "value": "30", "unit": "Days min." },
+                { "icon": "book", "label": "Education/Program", "value": "Assessment of your alcohol/drug use", "unit": "at a cost of $625" },
+                { "icon": "money", "label": "Penalty", "value": "$1000", "unit": "Minimum fine" }
+              ]
+            ]
+          }
+        ],
+        "new-drivers": [
+          {
+            "desc": "Zero Tolerance. Any amount of alcohol, cannabis in bloodstream, higher than zero, BUT lower than the criminal limits BAC levels greater than zero but less than 0.08, or who police suspect to have the presence of drugs",
+            "offences": [
+              [
+                { "icon": "id", "label": "License Suspension", "value": "24", "unit": "Hours" },
+                { "icon": "car", "label": "If Convicted", "value": "Not a Criminal Offense", "unit": "" },
+                { "icon": "car", "label": "Vehicle Impoundment", "value": "Vehicle Not Impounded", "unit": "" },
+                { "icon": "book", "label": "Education/Program", "value": "Driver Training Program may be required to be restarted", "unit": "" },
+                { "icon": "money", "label": "Penalty", "value": "" }
+              ],
+              [
+                { "icon": "id", "label": "License Suspension", "value": "24", "unit": "Hours" },
+                { "icon": "car", "label": "If Convicted", "value": "Not a Criminal Offense", "unit": "" },
+                { "icon": "car", "label": "Vehicle Impoundment", "value": "Vehicle Not Impounded", "unit": "" },
+                { "icon": "book", "label": "Education/Program", "value": "Driver Training Program may be required to be restarted", "unit": "" },
+                { "icon": "money", "label": "Penalty", "value": "" }
+              ],
+              [
+                { "icon": "id", "label": "License Suspension", "value": "24", "unit": "Hours" },
+                { "icon": "car", "label": "If Convicted", "value": "Not a Criminal Offense", "unit": "" },
+                { "icon": "car", "label": "Vehicle Impoundment", "value": "Vehicle Not Impounded", "unit": "" },
+                { "icon": "book", "label": "Education/Program", "value": "Driver Training Program may be required to be restarted", "unit": "" },
+                { "icon": "money", "label": "Penalty", "value": "" }
+              ]
+            ]
+          }
+        ],
+        "experienced-drivers": [
+          {
+            "desc": "You register a \"warn\" or a \"fail\" on a breath screening device; BAC between 0.05 and 0.08; You fail a physical coordination test.",
+            "offences": [
+              [
+                { "icon": "id", "label": "License Suspension", "value": "3", "unit": "Days" },
+                { "icon": "car", "label": "If Convicted", "value": "Not a Criminal Offense", "unit": "" },
+                { "icon": "car", "label": "Vehicle Impoundment", "value": "Vehicle Not Impounded", "unit": "" },
+                { "icon": "book", "label": "Education/Program", "value": "No Required Educations Program", "unit": "" },
+                { "icon": "money", "label": "Penalty", "value": "" }
+              ],
+              [
+                { "icon": "id", "label": "License Suspension", "value": "15", "unit": "Days" },
+                { "icon": "car", "label": "If Convicted", "value": "Not a Criminal Offense", "unit": "" },
+                { "icon": "car", "label": "Vehicle Impoundment", "value": "Vehicle Not Impounded", "unit": "" },
+                { "icon": "book", "label": "Education/Program", "value": "No Required Educations Program", "unit": "" },
+                { "icon": "money", "label": "Penalty", "value": "" }
+              ],
+              [
+                { "icon": "id", "label": "License Suspension", "value": "30", "unit": "Days" },
+                { "icon": "car", "label": "If Convicted", "value": "Not a Criminal Offense", "unit": "" },
+                { "icon": "car", "label": "Vehicle Impoundment", "value": "Vehicle Not Impounded", "unit": "" },
+                { "icon": "book", "label": "Education/Program", "value": "No Required Educations Program", "unit": "" },
+                { "icon": "money", "label": "Penalty", "value": "" }
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "new-brunswick": {
+      "bg": "/static/images/bgs/new-brunswick-grey.jpg",
+      "name": "New Brunswick",
+      "code": "NB",
+      "funFact": "The province is know for the highest, wildest tides in the world.",
+      "notSoFunFact": "New Brunswick had 120 drug-impaired incidents in 2017.",
+      "driverGroups": {
+        "all-drivers": [
+          {
+            "desc": "BAC over .08 or failure or refusal to provide breath sample",
+            "offences": [
+              [
+                { "icon": "id", "label": "License Suspension", "value": "30", "unit": "Days" },
+                { "icon": "car", "label": "If Convicted", "value": "1", "unit": "Year" },
+                { "icon": "car", "label": "Vehicle Impoundment", "value": "30", "unit": "Days" },
+                { "icon": "book", "label": "Education/Program", "value": "Auto Control driver's education program", "unit": "" },
+                { "icon": "money", "label": "Penalty", "value": "$1150", "unit": "Minimum" }
+              ],
+              [
+                { "icon": "id", "label": "License Suspension", "value": "60", "unit": "Days" },
+                { "icon": "car", "label": "If Convicted", "value": "3", "unit": "Years" },
+                { "icon": "car", "label": "Vehicle Impoundment", "value": "60", "unit": "Days" },
+                { "icon": "book", "label": "Education/Program", "value": "Auto Control driver's education program", "unit": "" },
+                { "icon": "money", "label": "Penalty", "value": "$1150", "unit": "Minimum" }
+              ],
+              [
+                { "icon": "id", "label": "License Suspension", "value": "60", "unit": "Days" },
+                { "icon": "car", "label": "If Convicted", "value": "5", "unit": "Year" },
+                { "icon": "car", "label": "Vehicle Impoundment", "value": "60", "unit": "Days" },
+                { "icon": "book", "label": "Education/Program", "value": "Auto Control driver's education program", "unit": "" },
+                { "icon": "money", "label": "Penalty", "value": "$1150", "unit": "Minimum" }
+              ]
+            ]
+          }
+        ],
+        "new-drivers": [
+          {
+            "desc": "Zero Tolerance. Any amount of alcohol, cannabis in bloodstream, higher than zero, BUT lower than the criminal limits BAC levels greater than zero but less than 0.08, or who police suspect to have the presence of drugs",
+            "offences": [
+              [
+                { "icon": "id", "label": "License Suspension", "value": "1", "unit": "Year" },
+                { "icon": "car", "label": "If Convicted", "value": "Not a Criminal Offense", "unit": "" },
+                { "icon": "car", "label": "Vehicle Impoundment", "value": "7", "unit": "Days" },
+                { "icon": "book", "label": "Education/Program", "value": "Auto Control driver's education program", "unit": "" },
+                { "icon": "money", "label": "Penalty", "value": "$172", "unit": "" }
+              ],
+              [
+                { "icon": "id", "label": "License Suspension", "value": "1", "unit": "Year" },
+                { "icon": "car", "label": "If Convicted", "value": "Not a Criminal Offense", "unit": "" },
+                { "icon": "car", "label": "Vehicle Impoundment", "value": "7", "unit": "Days" },
+                { "icon": "book", "label": "Education/Program", "value": "Auto Control driver's education program", "unit": "" },
+                { "icon": "money", "label": "Penalty", "value": "$172", "unit": "" }
+              ],
+              [
+                { "icon": "id", "label": "License Suspension", "value": "1", "unit": "Year" },
+                { "icon": "car", "label": "If Convicted", "value": "Not a Criminal Offense", "unit": "" },
+                { "icon": "car", "label": "Vehicle Impoundment", "value": "7", "unit": "Days" },
+                { "icon": "book", "label": "Education/Program", "value": "Auto Control driver's education program", "unit": "" },
+                { "icon": "money", "label": "Penalty", "value": "$172", "unit": "" }
+              ]
+            ]
+          }
+        ],
+        "experienced-drivers": [
+          {
+            "desc": "Driving while impaired, BAC is between 0.05 and 0.08",
+            "offences": [
+              [
+                { "icon": "id", "label": "License Suspension", "value": "7", "unit": "Days" },
+                { "icon": "car", "label": "If Convicted", "value": "Not a Criminal Offense", "unit": "" },
+                { "icon": "car", "label": "Vehicle Impoundment", "value": "3", "unit": "Days" },
+                { "icon": "book", "label": "Education/Program", "value": "No Required Educations Program", "unit": "" },
+                { "icon": "money", "label": "Penalty", "value": "N/A", "unit": "" }
+              ],
+              [
+                { "icon": "id", "label": "License Suspension", "value": "15", "unit": "Days" },
+                { "icon": "car", "label": "If Convicted", "value": "Not a Criminal Offense", "unit": "" },
+                { "icon": "car", "label": "Vehicle Impoundment", "value": "7", "unit": "Days" },
+                { "icon": "book", "label": "Education/Program", "value": "No Required Educations Program", "unit": "" },
+                { "icon": "money", "label": "Penalty", "value": "N/A", "unit": "" }
+              ],
+              [
+                { "icon": "id", "label": "License Suspension", "value": "30", "unit": "Days" },
+                { "icon": "car", "label": "If Convicted", "value": "Not a Criminal Offense", "unit": "" },
+                { "icon": "car", "label": "Vehicle Impoundment", "value": "7", "unit": "Days" },
+                { "icon": "book", "label": "Education/Program", "value": "No Required Educations Program", "unit": "" },
+                { "icon": "money", "label": "Penalty", "value": "N/A", "unit": "" }
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "newfoundland-and-labrador": {
+      "bg": "/static/images/bgs/newfoundland-grey.jpg",
+      "name": "Newfoundland and Labrador",
+      "code": "NL",
+      "funFact": "",
+      "notSoFunFact": "Newfoundland & Labrador had 141 drug-impaired incidents in 2017.",
+      "driverGroups": {
+        "all-drivers": [
+          {
+            "desc": "BAC over .08 or refusing a demand for a breath sample",
+            "offences": [
+              [
+                { "icon": "id", "label": "License Suspension", "value": "90", "unit": "Days" },
+                { "icon": "car", "label": "If Convicted", "value": "1", "unit": "Year" },
+                { "icon": "car", "label": "Vehicle Impoundment", "value": "30", "unit": "Days" },
+                { "icon": "book", "label": "Education/Program", "value": "Think First alcohol education program", "unit": "" },
+                { "icon": "money", "label": "Penalty", "value": "$600", "unit": "Minimum" }
+              ],
+              [
+                { "icon": "id", "label": "License Suspension", "value": "90", "unit": "Days" },
+                { "icon": "car", "label": "If Convicted", "value": "3", "unit": "Years" },
+                { "icon": "car", "label": "Vehicle Impoundment", "value": "30", "unit": "Days" },
+                { "icon": "book", "label": "Education/Program", "value": "Mandatory alcohol and drug dependency screening", "unit": "" },
+                { "icon": "money", "label": "Penalty", "value": "$600", "unit": "Minimum" }
+              ],
+              [
+                { "icon": "id", "label": "License Suspension", "value": "90", "unit": "Days" },
+                { "icon": "car", "label": "If Convicted", "value": "10", "unit": "Years" },
+                { "icon": "car", "label": "Vehicle Impoundment", "value": "30", "unit": "Days" },
+                { "icon": "book", "label": "Education/Program", "value": "Mandatory alcohol and drug dependency screening", "unit": "" },
+                { "icon": "money", "label": "Penalty", "value": "$600", "unit": "Minimum" }
+              ]
+            ]
+          }
+        ],
+        "new-drivers": [
+          {
+            "desc": "Zero Tolerance. BAC above 0.00 or presence of drugs",
+            "offences": [
+              [
+                { "icon": "id", "label": "License Suspension", "value": "2", "unit": "Months" },
+                { "icon": "car", "label": "If Convicted", "value": "Not a Criminal Offense", "unit": "" },
+                { "icon": "car", "label": "Vehicle Impoundment", "value": "7", "unit": "Days" },
+                { "icon": "book", "label": "Education/Program", "value": "Driver Training Program may be required to be restarted", "unit": "" },
+                { "icon": "money", "label": "Penalty", "value": "N/A", "unit": "" }
+              ],
+              [
+                { "icon": "id", "label": "License Suspension", "value": "4", "unit": "Months" },
+                { "icon": "car", "label": "If Convicted", "value": "Not a Criminal Offense", "unit": "" },
+                { "icon": "car", "label": "Vehicle Impoundment", "value": "7", "unit": "Days" },
+                { "icon": "book", "label": "Education/Program", "value": "Think First alcohol education program", "unit": "" },
+                { "icon": "money", "label": "Penalty", "value": "N/A", "unit": "" }
+              ],
+              [
+                { "icon": "id", "label": "License Suspension", "value": "6", "unit": "Months" },
+                { "icon": "car", "label": "If Convicted", "value": "Not a Criminal Offense", "unit": "" },
+                { "icon": "car", "label": "Vehicle Impoundment", "value": "7", "unit": "Days" },
+                { "icon": "book", "label": "Education/Program", "value": "Assessment for alcohol or drug dependency", "unit": "" },
+                { "icon": "money", "label": "Penalty", "value": "N/A", "unit": "" }
+              ]
+            ]
+          }
+        ],
+        "experienced-drivers": [
+          {
+            "desc": "Driving while impaired, BAC is between 0.05 and 0.08",
+            "offences": [
+              [
+                { "icon": "id", "label": "License Suspension", "value": "24", "unit": "Hours" },
+                { "icon": "car", "label": "If Convicted", "value": "Not a Criminal Offense", "unit": "" },
+                { "icon": "car", "label": "Vehicle Impoundment", "value": "7", "unit": "Days" },
+                { "icon": "book", "label": "Education/Program", "value": "No Required Educations Program", "unit": "" },
+                { "icon": "money", "label": "Penalty", "value": "N/A", "unit": "" }
+              ],
+              [
+                { "icon": "id", "label": "License Suspension", "value": "24", "unit": "Hours" },
+                { "icon": "car", "label": "If Convicted", "value": "Not a Criminal Offense", "unit": "" },
+                { "icon": "car", "label": "Vehicle Impoundment", "value": "7", "unit": "Days" },
+                { "icon": "book", "label": "Education/Program", "value": "No Required Educations Program", "unit": "" },
+                { "icon": "money", "label": "Penalty", "value": "N/A", "unit": "" }
+              ],
+              [
+                { "icon": "id", "label": "License Suspension", "value": "2", "unit": "Months" },
+                { "icon": "car", "label": "If Convicted", "value": "Not a Criminal Offense", "unit": "" },
+                { "icon": "car", "label": "Vehicle Impoundment", "value": "7", "unit": "Days" },
+                { "icon": "book", "label": "Education/Program", "value": "Mandatory alcohol and drug dependency screening", "unit": "" },
+                { "icon": "money", "label": "Penalty", "value": "N/A", "unit": "" }
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "northwest-territories": {
+      "bg": "/static/images/bgs/northwest-territories-grey.jpg",
+      "name": "Northwest Territories",
+      "code": "NT",
+      "funFact": "",
+      "notSoFunFact": "",
+      "driverGroups": {
+        "all-drivers": [
+          {
+            "desc": "BAC over .08 or refusing a demand for a breath sample",
+            "offences": [
+              [
+                { "icon": "id", "label": "License Suspension", "value": "90", "unit": "Days" },
+                { "icon": "car", "label": "If Convicted", "value": "1", "unit": "Year" },
+                { "icon": "car", "label": "Vehicle Impoundment", "value": "30", "unit": "Days" },
+                { "icon": "book", "label": "Education/Program", "value": "Think First alcohol education program", "unit": "" },
+                { "icon": "money", "label": "Penalty", "value": "$600", "unit": "Minimum" }
+              ],
+              [
+                { "icon": "id", "label": "License Suspension", "value": "90", "unit": "Days" },
+                { "icon": "car", "label": "If Convicted", "value": "3", "unit": "Years" },
+                { "icon": "car", "label": "Vehicle Impoundment", "value": "30", "unit": "Days" },
+                { "icon": "book", "label": "Education/Program", "value": "Mandatory alcohol and drug dependency screening", "unit": "" },
+                { "icon": "money", "label": "Penalty", "value": "$600", "unit": "Minimum" }
+              ],
+              [
+                { "icon": "id", "label": "License Suspension", "value": "90", "unit": "Days" },
+                { "icon": "car", "label": "If Convicted", "value": "10", "unit": "Years" },
+                { "icon": "car", "label": "Vehicle Impoundment", "value": "30", "unit": "Days" },
+                { "icon": "book", "label": "Education/Program", "value": "Mandatory alcohol and drug dependency screening", "unit": "" },
+                { "icon": "money", "label": "Penalty", "value": "$600", "unit": "Minimum" }
+              ]
+            ]
+          }
+        ],
+        "new-drivers": [
+          {
+            "desc": "Zero Tolerance. BAC above 0.00 or presence of drugs",
+            "offences": [
+              [
+                { "icon": "id", "label": "License Suspension", "value": "2", "unit": "Months" },
+                { "icon": "car", "label": "If Convicted", "value": "Not a Criminal Offense", "unit": "" },
+                { "icon": "car", "label": "Vehicle Impoundment", "value": "7", "unit": "Days" },
+                { "icon": "book", "label": "Education/Program", "value": "Driver Training Program may be required to be restarted", "unit": "" },
+                { "icon": "money", "label": "Penalty", "value": "N/A", "unit": "" }
+              ],
+              [
+                { "icon": "id", "label": "License Suspension", "value": "4", "unit": "Months" },
+                { "icon": "car", "label": "If Convicted", "value": "Not a Criminal Offense", "unit": "" },
+                { "icon": "car", "label": "Vehicle Impoundment", "value": "7", "unit": "Days" },
+                { "icon": "book", "label": "Education/Program", "value": "Think First alcohol education program", "unit": "" },
+                { "icon": "money", "label": "Penalty", "value": "N/A", "unit": "" }
+              ],
+              [
+                { "icon": "id", "label": "License Suspension", "value": "6", "unit": "Months" },
+                { "icon": "car", "label": "If Convicted", "value": "Not a Criminal Offense", "unit": "" },
+                { "icon": "car", "label": "Vehicle Impoundment", "value": "7", "unit": "Days" },
+                { "icon": "book", "label": "Education/Program", "value": "Assessment for alcohol or drug dependency", "unit": "" },
+                { "icon": "money", "label": "Penalty", "value": "N/A", "unit": "" }
+              ]
+            ]
+          }
+        ],
+        "experienced-drivers": [
+          {
+            "desc": "Driving while impaired, BAC is between 0.05 and 0.08",
+            "offences": [
+              [
+                { "icon": "id", "label": "License Suspension", "value": "24", "unit": "Hours" },
+                { "icon": "car", "label": "If Convicted", "value": "Not a Criminal Offense", "unit": "" },
+                { "icon": "car", "label": "Vehicle Impoundment", "value": "7", "unit": "Days" },
+                { "icon": "book", "label": "Education/Program", "value": "No Required Educations Program", "unit": "" },
+                { "icon": "money", "label": "Penalty", "value": "N/A", "unit": "" }
+              ],
+              [
+                { "icon": "id", "label": "License Suspension", "value": "24", "unit": "Hours" },
+                { "icon": "car", "label": "If Convicted", "value": "Not a Criminal Offense", "unit": "" },
+                { "icon": "car", "label": "Vehicle Impoundment", "value": "7", "unit": "Days" },
+                { "icon": "book", "label": "Education/Program", "value": "No Required Educations Program", "unit": "" },
+                { "icon": "money", "label": "Penalty", "value": "N/A", "unit": "" }
+              ],
+              [
+                { "icon": "id", "label": "License Suspension", "value": "2", "unit": "Months" },
+                { "icon": "car", "label": "If Convicted", "value": "Not a Criminal Offense", "unit": "" },
+                { "icon": "car", "label": "Vehicle Impoundment", "value": "7", "unit": "Days" },
+                { "icon": "book", "label": "Education/Program", "value": "Mandatory alcohol and drug dependency screening", "unit": "" },
+                { "icon": "money", "label": "Penalty", "value": "N/A", "unit": "" }
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "nova-scotia": {
+      "bg": "/static/images/bgs/nova-scotia-grey.jpg",
+      "name": "Nova Scotia",
+      "code": "NS",
+      "funFact": "Halifax, the province capital, is closer to Dublin, Ireland than it is to Victoria, British Columbia.",
+      "notSoFunFact": "Nova Scotia had 149 drug-impaired accidents in 2017.",
+      "driverGroups": {
+        "all-drivers": [
+          {
+            "desc": "BAC over .08, presence of drugs",
+            "offences": [
+              [
+                { "icon": "id", "label": "License Suspension", "value": "90", "unit": "Days" },
+                { "icon": "car", "label": "If Convicted", "value": "1", "unit": "Year" },
+                { "icon": "car", "label": "Vehicle Impoundment", "value": "N/A", "unit": "" },
+                { "icon": "book", "label": "Education/Program", "value": "Addiction/Drug Dependency Services assessment program", "unit": "" },
+                { "icon": "money", "label": "Penalty", "value": "$600", "unit": "to $2000" }
+              ],
+              [
+                { "icon": "id", "label": "License Suspension", "value": "90", "unit": "Days" },
+                { "icon": "car", "label": "If Convicted", "value": "3", "unit": "Years" },
+                { "icon": "car", "label": "Vehicle Impoundment", "value": "N/A", "unit": "" },
+                { "icon": "book", "label": "Education/Program", "value": "Addiction/Drug Dependency Services assessment program", "unit": "" },
+                { "icon": "money", "label": "Penalty", "value": "$600", "unit": "to $2000" }
+              ],
+              [
+                { "icon": "id", "label": "License Suspension", "value": "90", "unit": "Days" },
+                { "icon": "car", "label": "If Convicted", "value": "10", "unit": "Years min." },
+                { "icon": "car", "label": "Vehicle Impoundment", "value": "N/A", "unit": "" },
+                { "icon": "book", "label": "Education/Program", "value": "Addiction/Drug Dependency Services assessment program", "unit": "" },
+                { "icon": "money", "label": "Penalty", "value": "$600", "unit": "to $2000" }
+              ]
+            ]
+          }
+        ],
+        "new-drivers": [
+          {
+            "desc": "Zero Tolerance. BAC above 0.00 or presence of drugs",
+            "offences": [
+              [
+                { "icon": "id", "label": "License Suspension", "value": "N/A", "unit": "" },
+                { "icon": "car", "label": "If Convicted", "value": "Not a Criminal Offense", "unit": "" },
+                { "icon": "car", "label": "Vehicle Impoundment", "value": "N/A", "unit": "" },
+                { "icon": "book", "label": "Education/Program", "value": "Driver Training Program may be required to be restarted", "unit": "" },
+                { "icon": "money", "label": "Penalty", "value": "N/A", "unit": "" }
+              ],
+              [
+                { "icon": "id", "label": "License Suspension", "value": "N/A", "unit": "" },
+                { "icon": "car", "label": "If Convicted", "value": "Not a Criminal Offense", "unit": "" },
+                { "icon": "car", "label": "Vehicle Impoundment", "value": "N/A", "unit": "" },
+                { "icon": "book", "label": "Education/Program", "value": "Driver Training Program may be required to be restarted", "unit": "" },
+                { "icon": "money", "label": "Penalty", "value": "N/A", "unit": "" }
+              ],
+              [
+                { "icon": "id", "label": "License Suspension", "value": "N/A", "unit": "" },
+                { "icon": "car", "label": "If Convicted", "value": "Not a Criminal Offense", "unit": "" },
+                { "icon": "car", "label": "Vehicle Impoundment", "value": "N/A", "unit": "" },
+                { "icon": "book", "label": "Education/Program", "value": "Driver Training Program may be required to be restarted", "unit": "" },
+                { "icon": "money", "label": "Penalty", "value": "N/A", "unit": "" }
+              ]
+            ]
+          }
+        ],
+        "experienced-drivers": [
+          {
+            "desc": "Driving while impaired, BAC is between 0.05 and 0.08",
+            "offences": [
+              [
+                { "icon": "id", "label": "License Suspension", "value": "7", "unit": "Days" },
+                { "icon": "car", "label": "If Convicted", "value": "Not a Criminal Offense", "unit": "" },
+                { "icon": "car", "label": "Vehicle Impoundment", "value": "N/A", "unit": "" },
+                { "icon": "book", "label": "Education/Program", "value": "No Required Educations Program", "unit": "" },
+                { "icon": "money", "label": "Penalty", "value": "N/A", "unit": "" }
+              ],
+              [
+                { "icon": "id", "label": "License Suspension", "value": "15", "unit": "Days" },
+                { "icon": "car", "label": "If Convicted", "value": "Not a Criminal Offense", "unit": "" },
+                { "icon": "car", "label": "Vehicle Impoundment", "value": "N/A", "unit": "" },
+                { "icon": "book", "label": "Education/Program", "value": "No Required Educations Program", "unit": "" },
+                { "icon": "money", "label": "Penalty", "value": "N/A", "unit": "" }
+              ],
+              [
+                { "icon": "id", "label": "License Suspension", "value": "30", "unit": "Days" },
+                { "icon": "car", "label": "If Convicted", "value": "Not a Criminal Offense", "unit": "" },
+                { "icon": "car", "label": "Vehicle Impoundment", "value": "N/A", "unit": "" },
+                { "icon": "book", "label": "Education/Program", "value": "No Required Educations Program", "unit": "" },
+                { "icon": "money", "label": "Penalty", "value": "N/A", "unit": "" }
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "nunavut": {
+      "bg": "/static/images/bgs/nunavut-grey.jpg",
+      "name": "Nunavut",
+      "code": "NU",
+      "funFact": "",
+      "notSoFunFact": "",
+      "driverGroups": {
+        "all-drivers": [
+          {
+            "desc": "BAC alcohol over .08, over 2 ng/ml of blood of THC, a combination of .05 BAC + 2.5 ng/ml of blood of THC, refused to provide a breath or fluid sample",
+            "offences": [
+              [
+                { "icon": "id", "label": "License Suspension", "value": "90", "unit": "Days in NU" },
+                { "icon": "car", "label": "If Convicted", "value": "1", "unit": "Year for all drivers" },
+                { "icon": "car", "label": "Vehicle Impoundment", "value": "7", "unit": "Days - all" },
+                { "icon": "book", "label": "Education/Program", "value": "Mandatory", "unit": "Education Program" },
+                { "icon": "money", "label": "Penalty", "value": "$550" }
+              ],
+              [
+                { "icon": "id", "label": "License Suspension", "value": "91", "unit": "Days in NU" },
+                { "icon": "car", "label": "If Convicted", "value": "1", "unit": "Year for all drivers" },
+                { "icon": "car", "label": "Vehicle Impoundment", "value": "30", "unit": "Days - all" },
+                { "icon": "book", "label": "Education/Program", "value": "Mandatory", "unit": "Treatment Program" },
+                { "icon": "money", "label": "Penalty", "value": "$551" }
+              ],
+              [
+                { "icon": "id", "label": "License Suspension", "value": "92", "unit": "Days in NU" },
+                { "icon": "car", "label": "If Convicted", "value": "1", "unit": "Year for all drivers" },
+                { "icon": "car", "label": "Vehicle Impoundment", "value": "60", "unit": "days - all" },
+                { "icon": "book", "label": "Education/Program", "value": "Mandatory", "unit": "Everything" },
+                { "icon": "money", "label": "Penalty", "value": "$552" }
+              ]
+            ]
+          }
+        ],
+        "new-drivers": [
+          {
+            "desc": "Zero Tolerance. Any amount of alcohol, cannabis  in bloodstream, higher than zero, BUT lower than the criminal limits",
+            "offences": [
+              [
+                { "icon": "id", "label": "License Suspension", "value": "90", "unit": "Days in NU" },
+                { "icon": "car", "label": "If Convicted", "value": "1", "unit": "Year for new drivers" },
+                { "icon": "car", "label": "Vehicle Impoundment", "value": "7", "unit": "Days - new" },
+                { "icon": "book", "label": "Education/Program", "value": "Mandatory", "unit": "Education Program" },
+                { "icon": "money", "label": "Penalty", "value": "$550" }
+              ],
+              [
+                { "icon": "id", "label": "License Suspension", "value": "91", "unit": "Days in NU" },
+                { "icon": "car", "label": "If Convicted", "value": "1", "unit": "Year for new drivers" },
+                { "icon": "car", "label": "Vehicle Impoundment", "value": "30", "unit": "Days - new" },
+                { "icon": "book", "label": "Education/Program", "value": "Mandatory", "unit": "Treatment Program" },
+                { "icon": "money", "label": "Penalty", "value": "$551" }
+              ],
+              [
+                { "icon": "id", "label": "License Suspension", "value": "92", "unit": "Days in NU" },
+                { "icon": "car", "label": "If Convicted", "value": "1", "unit": "Year for new drivers" },
+                { "icon": "car", "label": "Vehicle Impoundment", "value": "60", "unit": "days - new" },
+                { "icon": "book", "label": "Education/Program", "value": "Mandatory", "unit": "Everything" },
+                { "icon": "money", "label": "Penalty", "value": "$552" }
+              ]
+            ]
+          }
+        ],
+        "experienced-drivers": [
+          {
+            "desc": "BAC between .05 to .08 and/or are impaired by drugs",
+            "offences": [
+              [
+                { "icon": "id", "label": "License Suspension", "value": "90", "unit": "Days in NU" },
+                { "icon": "car", "label": "If Convicted", "value": "1", "unit": "Year for exp. drivers" },
+                { "icon": "car", "label": "Vehicle Impoundment", "value": "7", "unit": "Days - exp." },
+                { "icon": "book", "label": "Education/Program", "value": "Mandatory", "unit": "Education Program" },
+                { "icon": "money", "label": "Penalty", "value": "$550" }
+              ],
+              [
+                { "icon": "id", "label": "License Suspension", "value": "91", "unit": "Days in NU" },
+                { "icon": "car", "label": "If Convicted", "value": "1", "unit": "Year for exp. drivers" },
+                { "icon": "car", "label": "Vehicle Impoundment", "value": "30", "unit": "Days - exp." },
+                { "icon": "book", "label": "Education/Program", "value": "Mandatory", "unit": "Treatment Program" },
+                { "icon": "money", "label": "Penalty", "value": "$551" }
+              ],
+              [
+                { "icon": "id", "label": "License Suspension", "value": "92", "unit": "Days in NU" },
+                { "icon": "car", "label": "If Convicted", "value": "1", "unit": "Year for exp. drivers" },
+                { "icon": "car", "label": "Vehicle Impoundment", "value": "60", "unit": "days - exp." },
+                { "icon": "book", "label": "Education/Program", "value": "Mandatory", "unit": "Everything" },
+                { "icon": "money", "label": "Penalty", "value": "$552" }
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "ontario": {
+      "bg": "/static/images/bgs/ontario-grey.jpg",
+      "name": "Ontario",
+      "code": "ON",
+      "funFact": "Ontario covers over 415,000 square miles (one million square kilometers). This makes it larger than France and Spain combined.",
+      "notSoFunFact": "Ontario has the 2nd highest rate of drug-impaired driving incidents. 653 incidents in 2017.",
+      "driverGroups": {
+        "all-drivers": [
+          {
+            "desc": "BAC alcohol over .08 per cent , BAC  over 2 nanograms of THC per millilitre of blood, a combination of 50 milligrams of alcohol per 100 millilitre of blood + 2.5 nanograms or more of THC per one millilitre of blood,refused or failed to provide a breath or fluid sample",
+            "offences": [
+              [
+                { "icon": "id", "label": "License Suspension", "value": "90", "unit": "Days" },
+                { "icon": "car", "label": "If Convicted", "value": "1", "unit": "Year" },
+                { "icon": "car", "label": "Vehicle Impoundment", "value": "7", "unit": "Days" },
+                { "icon": "book", "label": "Education/Program", "value": "Mandatory education program", "unit": "" },
+                { "icon": "money", "label": "Penalty", "value": "$550", "unit": "" }
+              ],
+              [
+                { "icon": "id", "label": "License Suspension", "value": "90", "unit": "Days" },
+                { "icon": "car", "label": "If Convicted", "value": "3", "unit": "Years" },
+                { "icon": "car", "label": "Vehicle Impoundment", "value": "7", "unit": "Days" },
+                { "icon": "book", "label": "Education/Program", "value": "Mandatory education or treatment program", "unit": "" },
+                { "icon": "money", "label": "Penalty", "value": "N/A", "unit": "" }
+              ],
+              [
+                { "icon": "id", "label": "License Suspension", "value": "90", "unit": "Days" },
+                { "icon": "car", "label": "If Convicted", "value": "Lifetime", "unit": "" },
+                { "icon": "car", "label": "Vehicle Impoundment", "value": "7", "unit": "Days" },
+                { "icon": "book", "label": "Education/Program", "value": "Mandatory treatment program and mandatory medical evaluation", "unit": "" },
+                { "icon": "money", "label": "Penalty", "value": "$500", "unit": "" }
+              ]
+            ]
+          }
+        ],
+        "new-drivers": [
+          {
+            "desc": "Zero Tolerance. Any amount of alcohol, cannabis  in their bloodstream, higher than zero, but lower than the criminal limits",
+            "offences": [
+              [
+                { "icon": "id", "label": "License Suspension", "value": "3", "unit": "Days" },
+                { "icon": "car", "label": "If Convicted", "value": "Not a Criminal Offense", "unit": "" },
+                { "icon": "car", "label": "Vehicle Impoundment", "value": "Vehicle Not Impounded", "unit": "" },
+                { "icon": "book", "label": "Education/Program", "value": "Driver training program may be required to be restarted", "unit": "" },
+                { "icon": "money", "label": "Penalty", "value": "$250" }
+              ],
+              [
+                { "icon": "id", "label": "License Suspension", "value": "7", "unit": "Days" },
+                { "icon": "car", "label": "If Convicted", "value": "Not a Criminal Offense", "unit": "" },
+                { "icon": "car", "label": "Vehicle Impoundment", "value": "Vehicle Not Impounded", "unit": "" },
+                { "icon": "book", "label": "Education/Program", "value": "Mandatory education program", "unit": "" },
+                { "icon": "money", "label": "Penalty", "value": "$350" }
+              ],
+              [
+                { "icon": "id", "label": "License Suspension", "value": "30", "unit": "Days" },
+                { "icon": "car", "label": "If Convicted", "value": "Not a Criminal Offense", "unit": "" },
+                { "icon": "car", "label": "Vehicle Impoundment", "value": "Vehicle Not Impounded", "unit": "" },
+                { "icon": "book", "label": "Education/Program", "value": "Mandatory treatment program and mandatory medical evaluation", "unit": "" },
+                { "icon": "money", "label": "Penalty", "value": "$450" }
+              ]
+            ]
+          }
+        ],
+        "experienced-drivers": [
+          {
+            "desc": "BAC between .05 to .08 and/or are impaired by drugs",
+            "offences": [
+              [
+                { "icon": "id", "label": "License Suspension", "value": "3", "unit": "Days" },
+                { "icon": "car", "label": "If Convicted", "value": "Not a Criminal Offense", "unit": "" },
+                { "icon": "car", "label": "Vehicle Impoundment", "value": "Vehicle Not Impounded", "unit": "" },
+                { "icon": "book", "label": "Education/Program", "value": "No Required Education Program", "unit": "" },
+                { "icon": "money", "label": "Penalty", "value": "$250" }
+              ],
+              [
+                { "icon": "id", "label": "License Suspension", "value": "7", "unit": "Days" },
+                { "icon": "car", "label": "If Convicted", "value": "Not a Criminal Offense", "unit": "" },
+                { "icon": "car", "label": "Vehicle Impoundment", "value": "Vehicle Not Impounded", "unit": "" },
+                { "icon": "book", "label": "Education/Program", "value": "Mandatory education program", "unit": "" },
+                { "icon": "money", "label": "Penalty", "value": "$350" }
+              ],
+              [
+                { "icon": "id", "label": "License Suspension", "value": "30", "unit": "Days" },
+                { "icon": "car", "label": "If Convicted", "value": "Not a Criminal Offense", "unit": "" },
+                { "icon": "car", "label": "Vehicle Impoundment", "value": "Vehicle Not Impounded", "unit": "" },
+                { "icon": "book", "label": "Education/Program", "value": "Mandatory treatment program and mandatory medical evaluation", "unit": "" },
+                { "icon": "money", "label": "Penalty", "value": "$450" }
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "prince-edward-island": {
+      "bg": "/static/images/bgs/pei-grey.jpg",
+      "name": "Prince Edward Island",
+      "code": "PE",
+      "funFact": "The province that was the birthplace of our confederation.",
+      "notSoFunFact": "PEI had 33 drug-impaired incidents in 2017.",
+      "driverGroups": {
+        "all-drivers": [
+          {
+            "desc": "BAC alcohol over .08, over 2 ng/ml of blood of THC, a combination of .05 BAC + 2.5 ng/ml of blood of THC, refused to provide a breath or fluid sample",
+            "offences": [
+              [
+                { "icon": "id", "label": "License Suspension", "value": "90", "unit": "Days" },
+                { "icon": "car", "label": "If Convicted", "value": "1", "unit": "Year" },
+                { "icon": "car", "label": "Vehicle Impoundment", "value": "30", "unit": "Days" },
+                { "icon": "book", "label": "Education/Program", "value": "Driver's rehabilitation course", "unit": "" },
+                { "icon": "money", "label": "Penalty", "value": "up to $1,200", "unit": "" }
+              ],
+              [
+                { "icon": "id", "label": "License Suspension", "value": "90", "unit": "Days" },
+                { "icon": "car", "label": "If Convicted", "value": "3", "unit": "Years" },
+                { "icon": "car", "label": "Vehicle Impoundment", "value": "30", "unit": "Days" },
+                { "icon": "book", "label": "Education/Program", "value": "Interview with a driver improvement officer and complete a driver risk analysis", "unit": "" },
+                { "icon": "money", "label": "Penalty", "value": "N/A", "unit": "" }
+              ],
+              [
+                { "icon": "id", "label": "License Suspension", "value": "90", "unit": "Days" },
+                { "icon": "car", "label": "If Convicted", "value": "5", "unit": "Years" },
+                { "icon": "car", "label": "Vehicle Impoundment", "value": "6", "unit": "Months" },
+                { "icon": "book", "label": "Education/Program", "value": "Assessment by an Addiction Services counsellor", "unit": "" },
+                { "icon": "money", "label": "Penalty", "value": "N/A", "unit": "" }
+              ]
+            ]
+          }
+        ],
+        "new-drivers": [
+          {
+            "desc": "Zero Tolerance. BAC between 0 to 0.08 and/or have drugs in your system",
+            "offences": [
+              [
+                { "icon": "id", "label": "License Suspension", "value": "90", "unit": "Days" },
+                { "icon": "car", "label": "If Convicted", "value": "Not a Criminal Offense", "unit": "" },
+                { "icon": "car", "label": "Vehicle Impoundment", "value": "Vehicle Not Impounded", "unit": "" },
+                { "icon": "book", "label": "Education/Program", "value": "Driver Training Program may be required to be restarted", "unit": "" },
+                { "icon": "money", "label": "Penalty", "value": "N/A" }
+              ],
+              [
+                { "icon": "id", "label": "License Suspension", "value": "90", "unit": "Days" },
+                { "icon": "car", "label": "If Convicted", "value": "Not a Criminal Offense", "unit": "" },
+                { "icon": "car", "label": "Vehicle Impoundment", "value": "Vehicle Not Impounded", "unit": "" },
+                { "icon": "book", "label": "Education/Program", "value": "Driver Training Program may be required to be restarted", "unit": "" },
+                { "icon": "money", "label": "Penalty", "value": "N/A" }
+              ],
+              [
+                { "icon": "id", "label": "License Suspension", "value": "90", "unit": "Days" },
+                { "icon": "car", "label": "If Convicted", "value": "Not a Criminal Offense", "unit": "" },
+                { "icon": "car", "label": "Vehicle Impoundment", "value": "Vehicle Not Impounded", "unit": "" },
+                { "icon": "book", "label": "Education/Program", "value": "Driver Training Program may be required to be restarted", "unit": "" },
+                { "icon": "money", "label": "Penalty", "value": "N/A" }
+              ]
+            ]
+          }
+        ],
+        "experienced-drivers": [
+          {
+            "desc": "BAC between .04 to .08 and/or are impaired by drugs",
+            "offences": [
+              [
+                { "icon": "id", "label": "License Suspension", "value": "24", "unit": "Hours" },
+                { "icon": "car", "label": "If Convicted", "value": "Not a Criminal Offense", "unit": "" },
+                { "icon": "car", "label": "Vehicle Impoundment", "value": "Vehicle Not Impounded", "unit": "" },
+                { "icon": "book", "label": "Education/Program", "value": "No Required Education Program", "unit": "" },
+                { "icon": "money", "label": "Penalty", "value": "N/A" }
+              ],
+              [
+                { "icon": "id", "label": "License Suspension", "value": "30", "unit": "Days" },
+                { "icon": "car", "label": "If Convicted", "value": "Not a Criminal Offense", "unit": "" },
+                { "icon": "car", "label": "Vehicle Impoundment", "value": "Vehicle Not Impounded", "unit": "" },
+                { "icon": "book", "label": "Education/Program", "value": "No Required Education Program", "unit": "" },
+                { "icon": "money", "label": "Penalty", "value": "N/A" }
+              ],
+              [
+                { "icon": "id", "label": "License Suspension", "value": "90", "unit": "Days" },
+                { "icon": "car", "label": "If Convicted", "value": "Not a Criminal Offense", "unit": "" },
+                { "icon": "car", "label": "Vehicle Impoundment", "value": "Vehicle Not Impounded", "unit": "" },
+                { "icon": "book", "label": "Education/Program", "value": "No Required Education Program", "unit": "" },
+                { "icon": "money", "label": "Penalty", "value": "N/A" }
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "quebec": {
+      "bg": "/static/images/bgs/quebec-grey.jpg",
+      "name": "Quebec",
+      "code": "QC",
+      "funFact": "The word “Kebec” is an Algonquin word meaning Where The River Narrows.",
+      "notSoFunFact": "Quebec has the highest rate of drug-impaired driving incidents. 893 incidents in 2017.",
+      "driverGroups": {
+        "all-drivers": [
+          {
+            "desc": "Driving while impaired and you blow above 0.08",
+            "offences": [
+              [
+                { "icon": "id", "label": "License Suspension", "value": "90", "unit": "Days" },
+                { "icon": "car", "label": "If Convicted", "value": "1-3", "unit": "Year" },
+                { "icon": "car", "label": "Vehicle Impoundment", "value": "Vehicle Not Impounded", "unit": "" },
+                { "icon": "book", "label": "Education/Program", "value": "No Required Educations Program", "unit": "" },
+                { "icon": "money", "label": "Penalty", "value": "N/A", "unit": "" }
+              ],
+              [
+                { "icon": "id", "label": "License Suspension", "value": "90", "unit": "Days" },
+                { "icon": "car", "label": "If Convicted", "value": "3-5", "unit": "Years" },
+                { "icon": "car", "label": "Vehicle Impoundment", "value": "90", "unit": "Days" },
+                { "icon": "book", "label": "Education/Program", "value": "Mandatory alcohol and drug abuse risk assessment", "unit": "" },
+                { "icon": "money", "label": "Penalty", "value": "N/A", "unit": "" }
+              ],
+              [
+                { "icon": "id", "label": "License Suspension", "value": "90", "unit": "Days" },
+                { "icon": "car", "label": "If Convicted", "value": "5", "unit": "Years" },
+                { "icon": "car", "label": "Vehicle Impoundment", "value": "6", "unit": "Months" },
+                { "icon": "book", "label": "Education/Program", "value": "Mandatory alcohol and drug abuse risk assessment", "unit": "" },
+                { "icon": "money", "label": "Penalty", "value": "N/A", "unit": "" }
+              ]
+            ]
+          }
+        ],
+        "new-drivers": [
+          {
+            "desc": "Zero Tolerance. Any amount of alcohol, cannabis  in their bloodstream, higher than zero, but lower than the criminal limits",
+            "offences": [
+              [
+                { "icon": "id", "label": "License Suspension", "value": "90", "unit": "Days" },
+                { "icon": "car", "label": "If Convicted", "value": "Not a Criminal Offense", "unit": "" },
+                { "icon": "car", "label": "Vehicle Impoundment", "value": "Vehicle Not Impounded", "unit": "" },
+                { "icon": "book", "label": "Education/Program", "value": "Driver Training Program may be required to be restarted", "unit": "" },
+                { "icon": "money", "label": "Penalty", "value": "$300-$600" }
+              ],
+              [
+                { "icon": "id", "label": "License Suspension", "value": "90", "unit": "Days" },
+                { "icon": "car", "label": "If Convicted", "value": "Not a Criminal Offense", "unit": "" },
+                { "icon": "car", "label": "Vehicle Impoundment", "value": "Vehicle Not Impounded", "unit": "" },
+                { "icon": "book", "label": "Education/Program", "value": "Driver Training Program may be required to be restarted", "unit": "" },
+                { "icon": "money", "label": "Penalty", "value": "N/A" }
+              ],
+              [
+                { "icon": "id", "label": "License Suspension", "value": "90", "unit": "Days" },
+                { "icon": "car", "label": "If Convicted", "value": "Not a Criminal Offense", "unit": "" },
+                { "icon": "car", "label": "Vehicle Impoundment", "value": "Vehicle Not Impounded", "unit": "" },
+                { "icon": "book", "label": "Education/Program", "value": "Driver Training Program may be required to be restarted", "unit": "" },
+                { "icon": "money", "label": "Penalty", "value": "N/A" }
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "saskatchewan": {
+      "bg": "/static/images/bgs/saskatchewan-grey.jpg",
+      "name": "Saskatchewan",
+      "code": "SK",
+      "funFact": "Environment Canada lists Regina, the capital of Saskatchewan, as the third-sunniest city in Canada with 2,338 hours per year.",
+      "notSoFunFact": "Saskatchewan had 219 drug-impaired incidents in 2017.",
+      "driverGroups": {
+        "all-drivers": [
+          {
+            "desc": "Less than .16 BAC Impaired Over drug legal limit Combination alcohol and drug (under .159 BAC)",
+            "offences": [
+              [
+                { "icon": "id", "label": "License Suspension", "value": "Indefinite", "unit": "" },
+                { "icon": "car", "label": "If Convicted", "value": "N/A", "unit": "" },
+                { "icon": "car", "label": "Vehicle Impoundment", "value": "30", "unit": "Days" },
+                { "icon": "book", "label": "Education/Program", "value": "Driving Without Impairment (DWI)", "unit": "" },
+                { "icon": "money", "label": "Penalty", "value": "$1,250", "unit": "" },
+                { "icon": "points", "label": "SDR Points", "value": "Move to -20", "unit": "" }
+              ],
+              [
+                { "icon": "id", "label": "License Suspension", "value": "Indefinite", "unit": "" },
+                { "icon": "car", "label": "If Convicted", "value": "N/A", "unit": "" },
+                { "icon": "car", "label": "Vehicle Impoundment", "value": "30", "unit": "Days" },
+                { "icon": "book", "label": "Education/Program", "value": "Driving Without Impairment (DWI)", "unit": "" },
+                { "icon": "money", "label": "Penalty", "value": "$1,250", "unit": "" },
+                { "icon": "points", "label": "SDR Points", "value": "Move to -20", "unit": "" }
+              ],
+              [
+                { "icon": "id", "label": "License Suspension", "value": "Indefinite", "unit": "" },
+                { "icon": "car", "label": "If Convicted", "value": "N/A", "unit": "" },
+                { "icon": "car", "label": "Vehicle Impoundment", "value": "30", "unit": "Days" },
+                { "icon": "book", "label": "Education/Program", "value": "Addictions Assessment", "unit": "" },
+                { "icon": "money", "label": "Penalty", "value": "$1,250", "unit": "" },
+                { "icon": "points", "label": "SDR Points", "value": "Move to -20", "unit": "" }
+              ]
+            ]
+          }
+        ],
+        "all-drivers-refusal": [
+          {
+            "desc": "Over 0.16 BAC or higher and refusal",
+            "offences": [
+              [
+                { "icon": "id", "label": "License Suspension", "value": "Indefinite", "unit": "" },
+                { "icon": "car", "label": "If Convicted", "value": "N/A", "unit": "" },
+                { "icon": "car", "label": "Vehicle Impoundment", "value": "60", "unit": "Days" },
+                { "icon": "book", "label": "Education/Program", "value": "Driving Without Impairment (DWI)", "unit": "" },
+                { "icon": "money", "label": "Penalty", "value": "$2,250", "unit": "" },
+                { "icon": "points", "label": "SDR Points", "value": "Move to -20", "unit": "" }
+              ],
+              [
+                { "icon": "id", "label": "License Suspension", "value": "Indefinite", "unit": "" },
+                { "icon": "car", "label": "If Convicted", "value": "N/A", "unit": "" },
+                { "icon": "car", "label": "Vehicle Impoundment", "value": "60", "unit": "Days" },
+                { "icon": "book", "label": "Education/Program", "value": "Alcohol and Drug Education program (ADE)", "unit": "" },
+                { "icon": "money", "label": "Penalty", "value": "$2,250", "unit": "" },
+                { "icon": "points", "label": "SDR Points", "value": "Move to -20", "unit": "" }
+              ],
+              [
+                { "icon": "id", "label": "License Suspension", "value": "Indefinite", "unit": "" },
+                { "icon": "car", "label": "If Convicted", "value": "N/A", "unit": "" },
+                { "icon": "car", "label": "Vehicle Impoundment", "value": "60", "unit": "Days" },
+                { "icon": "book", "label": "Education/Program", "value": "Addictions Assessment", "unit": "" },
+                { "icon": "money", "label": "Penalty", "value": "$2,250", "unit": "" },
+                { "icon": "points", "label": "SDR Points", "value": "Move to -20", "unit": "" }
+              ]
+            ]
+          }
+        ],
+        "new-drivers": [
+          {
+          "desc": "Zero Tolerance. BAC between 0 to 0.08 and/or have drugs in your system",
+          "offences": [
+            [
+              { "icon": "id", "label": "License Suspension", "value": "60", "unit": "Days" },
+              { "icon": "car", "label": "If Convicted", "value": "Not a Criminal Offense", "unit": "" },
+              { "icon": "car", "label": "Vehicle Impoundment", "value": "3", "unit": "Days" },
+              { "icon": "book", "label": "Education/Program", "value": "Driving Without Impairment (DWI)", "unit": "" },
+              { "icon": "money", "label": "Penalty", "value": "$200" },
+              { "icon": "points", "label": "SDR Points", "value": "-4", "unit": "" }
+            ],
+            [
+              { "icon": "id", "label": "License Suspension", "value": "120", "unit": "Days" },
+              { "icon": "car", "label": "If Convicted", "value": "Not a Criminal Offense", "unit": "" },
+              { "icon": "car", "label": "Vehicle Impoundment", "value": "7", "unit": "Days" },
+              { "icon": "book", "label": "Education/Program", "value": "Alcohol and Drug Education program (ADE)", "unit": "" },
+              { "icon": "money", "label": "Penalty", "value": "$200" },
+              { "icon": "points", "label": "SDR Points", "value": "-4", "unit": "" }
+            ],
+            [
+              { "icon": "id", "label": "License Suspension", "value": "18", "unit": "Months" },
+              { "icon": "car", "label": "If Convicted", "value": "Not a Criminal Offense", "unit": "" },
+              { "icon": "car", "label": "Vehicle Impoundment", "value": "7", "unit": "Days" },
+              { "icon": "book", "label": "Education/Program", "value": "Addictions Assessment", "unit": "" },
+              { "icon": "money", "label": "Penalty", "value": "$200" },
+              { "icon": "points", "label": "SDR Points", "value": "-4", "unit": "" }
+            ]
+          ]
+          }
+        ],
+        "experienced-drivers": [
+          {
+            "desc": "BAC between .04 to .08 and/or are impaired by drugs",
+            "offences": [
+              [
+                { "icon": "id", "label": "License Suspension", "value": "3", "unit": "Days" },
+                { "icon": "car", "label": "If Convicted", "value": "Not a Criminal Offense", "unit": "" },
+                { "icon": "car", "label": "Vehicle Impoundment", "value": "3", "unit": "Days" },
+                { "icon": "book", "label": "Education/Program", "value": "Driving Without Impairment (DWI)", "unit": "" },
+                { "icon": "money", "label": "Penalty", "value": "$200" },
+                { "icon": "points", "label": "SDR Points", "value": "-4", "unit": "" }
+              ],
+              [
+                { "icon": "id", "label": "License Suspension", "value": "21", "unit": "Days" },
+                { "icon": "car", "label": "If Convicted", "value": "Not a Criminal Offense", "unit": "" },
+                { "icon": "car", "label": "Vehicle Impoundment", "value": "7", "unit": "Days" },
+                { "icon": "book", "label": "Education/Program", "value": "Alcohol and Drug Education program (ADE)", "unit": "" },
+                { "icon": "money", "label": "Penalty", "value": "$200" },
+                { "icon": "points", "label": "SDR Points", "value": "-4", "unit": "" }
+              ],
+              [
+                { "icon": "id", "label": "License Suspension", "value": "90", "unit": "Days" },
+                { "icon": "car", "label": "If Convicted", "value": "Not a Criminal Offense", "unit": "" },
+                { "icon": "car", "label": "Vehicle Impoundment", "value": "14", "unit": "Days" },
+                { "icon": "book", "label": "Education/Program", "value": "Addictions Assessment", "unit": "" },
+                { "icon": "money", "label": "Penalty", "value": "$200" },
+                { "icon": "points", "label": "SDR Points", "value": "-4", "unit": "" }
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "yukon": {
+      "bg": "/static/images/bgs/yukon-grey.jpg",
+      "name": "Yukon",
+      "code": "YK",
+      "funFact": "",
+      "notSoFunFact": "",
+      "driverGroups": {
+        "all-drivers": [
+          {
+            "desc": "BAC alcohol over .08, over 2 ng/ml of blood of THC, a combination of .05 BAC + 2.5 ng/ml of blood of THC, refused to provide a breath or fluid sample",
+            "offences": [
+              [
+                { "icon": "id", "label": "License Suspension", "value": "90", "unit": "Days in YT" },
+                { "icon": "car", "label": "If Convicted", "value": "1", "unit": "Year for all drivers" },
+                { "icon": "car", "label": "Vehicle Impoundment", "value": "7", "unit": "Days - all" },
+                { "icon": "book", "label": "Education/Program", "value": "Mandatory", "unit": "Education Program" },
+                { "icon": "money", "label": "Penalty", "value": "$550" }
+              ],
+              [
+                { "icon": "id", "label": "License Suspension", "value": "91", "unit": "Days in YT" },
+                { "icon": "car", "label": "If Convicted", "value": "1", "unit": "Year for all drivers" },
+                { "icon": "car", "label": "Vehicle Impoundment", "value": "30", "unit": "Days - all" },
+                { "icon": "book", "label": "Education/Program", "value": "Mandatory", "unit": "Treatment Program" },
+                { "icon": "money", "label": "Penalty", "value": "$551" }
+              ],
+              [
+                { "icon": "id", "label": "License Suspension", "value": "92", "unit": "Days in YT" },
+                { "icon": "car", "label": "If Convicted", "value": "1", "unit": "Year for all drivers" },
+                { "icon": "car", "label": "Vehicle Impoundment", "value": "60", "unit": "days - all" },
+                { "icon": "book", "label": "Education/Program", "value": "Mandatory", "unit": "Everything" },
+                { "icon": "money", "label": "Penalty", "value": "$552" }
+              ]
+            ]
+          }
+        ],
+        "new-drivers": [
+          {
+            "desc": "Zero Tolerance. Any amount of alcohol, cannabis  in bloodstream, higher than zero, BUT lower than the criminal limits",
+            "offences": [
+              [
+                { "icon": "id", "label": "License Suspension", "value": "90", "unit": "Days in YT" },
+                { "icon": "car", "label": "If Convicted", "value": "1", "unit": "Year for new drivers" },
+                { "icon": "car", "label": "Vehicle Impoundment", "value": "7", "unit": "Days - new" },
+                { "icon": "book", "label": "Education/Program", "value": "Mandatory", "unit": "Education Program" },
+                { "icon": "money", "label": "Penalty", "value": "$550" }
+              ],
+              [
+                { "icon": "id", "label": "License Suspension", "value": "91", "unit": "Days in YT" },
+                { "icon": "car", "label": "If Convicted", "value": "1", "unit": "Year for new drivers" },
+                { "icon": "car", "label": "Vehicle Impoundment", "value": "30", "unit": "Days - new" },
+                { "icon": "book", "label": "Education/Program", "value": "Mandatory", "unit": "Treatment Program" },
+                { "icon": "money", "label": "Penalty", "value": "$551" }
+              ],
+              [
+                { "icon": "id", "label": "License Suspension", "value": "92", "unit": "Days in YT" },
+                { "icon": "car", "label": "If Convicted", "value": "1", "unit": "Year for new drivers" },
+                { "icon": "car", "label": "Vehicle Impoundment", "value": "60", "unit": "days - new" },
+                { "icon": "book", "label": "Education/Program", "value": "Mandatory", "unit": "Everything" },
+                { "icon": "money", "label": "Penalty", "value": "$552" }
+              ]
+            ]
+          }
+        ],
+        "experienced-drivers": [
+          {
+            "desc": "BAC between .05 to .08 and/or are impaired by drugs",
+            "offences": [
+              [
+                { "icon": "id", "label": "License Suspension", "value": "90", "unit": "Days in YT" },
+                { "icon": "car", "label": "If Convicted", "value": "1", "unit": "Year for exp. drivers" },
+                { "icon": "car", "label": "Vehicle Impoundment", "value": "7", "unit": "Days - exp." },
+                { "icon": "book", "label": "Education/Program", "value": "Mandatory", "unit": "Education Program" },
+                { "icon": "money", "label": "Penalty", "value": "$550" }
+              ],
+              [
+                { "icon": "id", "label": "License Suspension", "value": "91", "unit": "Days in YT" },
+                { "icon": "car", "label": "If Convicted", "value": "1", "unit": "Year for exp. drivers" },
+                { "icon": "car", "label": "Vehicle Impoundment", "value": "30", "unit": "Days - exp." },
+                { "icon": "book", "label": "Education/Program", "value": "Mandatory", "unit": "Treatment Program" },
+                { "icon": "money", "label": "Penalty", "value": "$551" }
+              ],
+              [
+                { "icon": "id", "label": "License Suspension", "value": "92", "unit": "Days in YT" },
+                { "icon": "car", "label": "If Convicted", "value": "1", "unit": "Year for exp. drivers" },
+                { "icon": "car", "label": "Vehicle Impoundment", "value": "60", "unit": "days - exp." },
+                { "icon": "book", "label": "Education/Program", "value": "Mandatory", "unit": "Everything" },
+                { "icon": "money", "label": "Penalty", "value": "$552" }
+              ]
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "social": {
+    "websiteUrl": "https://www.thercu.org",
+    "facebookUrl": "https://www.facebook.com/thercuorg/",
+    "twitterUrl": "https://twitter.com/thercuorg",
+    "instagramUrl": "https://www.instagram.com/thercuorg/",
+    "email": "mailto:hello@thercu.org",
+    "linkedinUrl": ""
+  }
+}

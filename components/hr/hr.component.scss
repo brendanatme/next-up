@@ -1,0 +1,19 @@
+//
+// hr
+//
+
+@import "../../styles/abstract/all";
+
+hr.hr {
+  background-color: $black;
+  border: 0;
+  box-shadow: none;
+  display: block;
+  height: 1px;
+  margin: 35px 0 24px;
+  width: 50px;
+
+  &.hr--short {
+    width: 30px;
+  }
+}

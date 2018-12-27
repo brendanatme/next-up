@@ -1,0 +1,9 @@
+@mixin rem-prop($prop, $int) {
+  #{$prop}: #{$int}px;
+  #{$prop}: #{$int / $baseFontInt}rem;
+}
+
+@mixin var-prop($prop, $var, $fallback) {
+  #{$prop}: $fallback;
+  #{$prop}: var($var);
+}

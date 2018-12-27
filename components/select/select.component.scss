@@ -1,0 +1,54 @@
+//
+// select
+//
+@import "../../styles/abstract/all";
+
+.select__wrapper {
+  @include display-24;
+  
+  background: $black;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0 10px 25px rgba($black, .15);
+  cursor: pointer;
+  position: relative;
+
+  &:after {
+    @include icons;
+
+    background: $black;
+    border-radius: 4px;
+    color: $white;
+    content: "\ea50";
+    cursor: pointer;
+    display: block;
+    height: 100%;
+    padding: 8px 11px 11px;
+    pointer-events: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 40px;
+  }
+
+  .select--is-sticky & {
+    border-radius: 0;
+
+    .select {
+      border-radius: 0;
+    }
+  }
+}
+
+.select {
+  -webkit-appearance: none;
+  appearance: none;
+  background: $black;
+  border: 0;
+  border-radius: 4px;
+  color: $white;
+  cursor: pointer;
+  font-weight: 700;
+  width: 100%;
+  padding: 12px 18px 11px;
+}

@@ -1,0 +1,50 @@
+@import "../../styles/abstract/all";
+
+.drivergroup-selectors__wrapper {
+  margin-top: -19px;
+
+  @include tablet {
+    margin-top: -39px;
+  }
+
+  @include widescreen {
+    margin-top: 0;
+  }
+}
+
+// we append the screen width and height to this class
+// we do this to try to force a re-render of react-scrollmagic's Scene component
+// when the page resizes
+.drivergroup-selector.select--is-sticky {
+  @include mobile {
+    left: 0 !important;
+    width: 100% !important;
+  }
+
+  .select {
+    @include mobile {
+      padding-left: 30px;
+    }
+  }
+
+  .select__wrapper:after {
+    @include mobile {
+      width: 52px;
+    }
+  }
+}
+
+// we append the screen width and height to this class
+// we do this to try to force a re-render of react-scrollmagic's Scene component
+// when the page resizes
+.drivergroup-buttons--is-sticky {
+  background: $offwhite;
+}
+
+.drivergroup-buttons {
+  padding: 20px 0;
+}
+
+.drivergroup-button {
+  margin-right: 15px;
+}
