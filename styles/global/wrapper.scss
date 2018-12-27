@@ -1,0 +1,33 @@
+@import "../abstract/all";
+
+.wrapper {
+  @include bb;
+  
+  @include mobile {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  @include tablet {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
+
+.wrapper--mobile {
+  @include bb;
+
+  @include mobile {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+.wrapper--tablet {
+  @include bb;
+
+  @include tablet {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}

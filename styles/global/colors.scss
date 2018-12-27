@@ -1,0 +1,11 @@
+@import "../abstract/all";
+
+@each $key, $value in $colors {
+  .#{$key} {
+    color: $value; 
+  }
+  
+  .bg-#{$key} {
+    background-color: $value;
+  }
+}

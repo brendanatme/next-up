@@ -1,0 +1,20 @@
+@import "~bulma/sass/utilities/initial-variables";
+
+$tablet: 768px;
+$desktop: 1024px;
+$fullhd: 1439px;
+
+@import "~bulma/sass/utilities/all";
+
+$baseFontInt: 10;
+$baseFontSize: #{$baseFontInt}px;
+$ease-out: cubic-bezier(.02,.57,.38,.98);
+$ease-in-out: cubic-bezier(.58,.01,.25,.97);
+
+@import "./general";
+@import "./layout";
+@import "./colors";
+@import "./type";
+@import "./resets";
+@import "./vcenter";
+@import "./icons";

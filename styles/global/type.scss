@@ -1,0 +1,54 @@
+@import "../abstract/all";
+
+html,
+body {
+  color: $black !important;
+  font-family: $copyFont !important;
+  font-size: $baseFontSize !important;
+}
+
+.truncate { @include truncate; }
+
+.rhythm { @include rhythm; }
+.rhythm--tiny { @include rhythm(10px); }
+.rhythm--smallest { @include rhythm(15px); }
+.rhythm--small { @include rhythm(20px); }
+.rhythm--large { @include rhythm(50px); }
+.rhythm--collapse { // override p tags which are important for some reason
+  margin-bottom: 0 !important;
+  margin-top: 0 !important;
+}
+
+.serif-60 { @include serif-60; }
+.serif-42 { @include serif-42; }
+.serif-42-odd { @include serif-42-odd; }
+.serif-32 { @include serif-32; }
+.serif-32-small { @include serif-32-small; }
+
+.display-72 { @include display-72; }
+.display-48 { @include display-48; }
+.display-36 { @include display-36; }
+.display-32 { @include display-32; }
+.display-24 { @include display-24; }
+.display-24-odd { @include display-24-odd; }
+.display-18 { @include display-18; }
+.display-18-medium { @include display-18-medium; }
+.display-16 { @include display-16; }
+
+p,
+.p,
+.copy { @include copy; }
+.copy-24 { @include copy-24; }
+.copy-21 { @include copy-21; }
+.copy-18 { @include copy-18; }
+.copy-13 { @include copy-13; }
+.copy-13-medium { @include copy-13-medium; }
+
+ul[class*="copy"],
+ol[class*="copy"] {
+  margin-left: 25px;
+
+  li {
+    margin-bottom: 10px;
+  }
+}

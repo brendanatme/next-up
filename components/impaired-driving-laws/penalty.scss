@@ -1,0 +1,35 @@
+@import "../../styles/abstract/all";
+
+.penalty {
+  padding: 25px 8px 25px;
+  position: relative;
+
+  &:after {
+    background: rgba($black, .65);
+    bottom: 0px;
+    content: '';
+    display: block;
+    height: 1px;
+    left: 50%;
+    margin-left: -30px;
+    position: absolute;
+    width: 60px;
+  }
+
+  .box &:last-child:after {
+    display: none;
+  }
+
+  sup {
+    font-size: .5em;
+  }
+}
+
+.penalty__field {
+  @include bb;
+
+  display: flex;
+  flex-direction: column;
+  height: 182px;
+  justify-content: space-around;
+}

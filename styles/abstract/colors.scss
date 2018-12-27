@@ -1,0 +1,51 @@
+
+$black: #000;
+$white: #fff;
+$offwhite: #e9e9e9;
+$lgray: rgba($black, .15);
+$gray: rgba($black, .65);
+$orange: #C25212;
+$blue: #0773d6;
+$lblue: #c8e7fe;
+$lgreen: #8bd6bd;
+$green: #61d3ad;
+
+$colors: (
+  'black': $black,
+  'white': $white,
+  'gray': $gray,
+  'lgray': $lgray,
+  'offwhite': $offwhite,
+  'orange': $orange,
+  'lblue': $lblue,
+  'lgreen': $lgreen,
+  'green': $green,
+);
+
+// TODO: update these according to design
+$ABaccent1: $blue;
+$ABaccent2: $blue;
+$BCaccent1: $blue;
+$BCaccent2: $blue;
+$MBaccent1: $blue;
+$MBaccent2: $blue;
+$NBaccent1: $blue;
+$NBaccent2: $blue;
+$NLaccent1: $blue;
+$NLaccent2: $blue;
+$NTaccent1: $blue;
+$NTaccent2: $blue;
+$NSaccent1: $blue;
+$NSaccent2: $blue;
+$NUaccent1: $blue;
+$NUaccent2: $blue;
+$ONaccent1: $blue;
+$ONaccent2: $blue;
+$PEaccent1: $blue;
+$PEaccent2: $blue;
+$QCaccent1: $blue;
+$QCaccent2: $blue;
+$SKaccent1: $blue;
+$SKaccent2: $blue;
+$YKaccent1: $blue;
+$YKaccent2: $blue;

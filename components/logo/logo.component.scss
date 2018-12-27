@@ -1,0 +1,32 @@
+@import "../../styles/abstract/all";
+
+$textFacor: 0.64;
+
+.logo {
+  font-size: 0;
+  overflow: hidden;
+}
+
+.logo__img,
+.logo__text {
+  @include ib;
+
+  max-width: initial;
+}
+
+.logo__img {
+  height: 50px;
+
+  .logo--large & {
+    height: 70px;
+  }
+}
+
+.logo__text {
+  height: 32px;
+  margin-left: 10px;
+
+  .logo--large & {
+    height: 45px;
+  }
+}

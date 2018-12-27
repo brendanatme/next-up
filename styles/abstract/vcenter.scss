@@ -1,0 +1,11 @@
+@mixin vcenter {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  &:before,
+  &:after {
+    content: '';
+    display: block;
+  }
+}

@@ -1,0 +1,19 @@
+//
+// box-link
+//
+@import "../../styles/abstract/all";
+
+.box-link {
+  margin-right: 0;
+  width: 40px;
+  
+  .box-link__label {
+    color: $gray;
+    transition: all .5s $ease-out;
+  }
+
+  &:hover .box-link__label {
+    color: $black;
+    transform: rotateY(360deg);
+  }
+}

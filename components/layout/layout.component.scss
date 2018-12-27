@@ -1,0 +1,84 @@
+@import "../../styles/abstract/all";
+
+html,
+body,
+#__next,
+#screen, {
+  height: 100%;
+  overflow: scroll;
+  position: relative;
+  width: 100%;
+}
+
+.layout {
+  position: relative;
+  z-index: 1;  
+  
+  .body.menu-is-open & {
+    overflow: hidden;
+  }
+
+  &.layout--has-sidebar {
+    .sidebar {
+      @include widescreen {
+        height: 100vh;
+        position: fixed;
+        width: 405px;
+      }
+    
+      @include fullhd {
+        width: 37%;
+      }
+    }
+    
+    .main {
+      position: relative;
+
+      @include widescreen {
+        left: 405px; // we use left instead of padding or margin for IE 11
+        width: calc(100% - 405px);
+      }
+    
+      @include fullhd {
+        left: 37%; // we use left instead of padding or margin for IE 11
+        width: 63%;
+      }
+    }
+  }
+}
+
+.header {
+  height: 80px;
+  position: fixed;
+  width: 100%;
+  z-index: 3;
+
+  @include tablet {
+    height: 90px;
+  }
+
+  @include desktop {
+    height: 130px;
+  }
+}
+
+.main {
+  position: relative;
+  z-index: 1;
+}
+
+.main__wrapper {
+  @include widescreen {
+    max-width: 804px;
+  }
+
+  @include fullhd {
+    max-width: 804px;
+  }
+}
+
+.main__body {
+  padding-bottom: 30px;
+  position: relative;
+  z-index: 1;
+}

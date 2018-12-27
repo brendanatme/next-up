@@ -1,0 +1,42 @@
+@mixin bb {
+  box-sizing: border-box;
+}
+
+@mixin fill {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+@mixin ib {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+@mixin clearfix {
+  &:after {
+    clear: both;
+    content: '';
+    display: block;
+    height: 0;
+  }
+}
+
+@mixin ratio($a, $b) {
+  display: block;
+  height: 0;
+  padding-top: ($b / $a) * 100%;
+  position: relative;
+  width: 100%;
+}
+
+@mixin square {
+  @include ratio(1, 1);
+}
+
+@mixin ratio-reset {
+  height: auto;
+  padding-top: 0;
+}
